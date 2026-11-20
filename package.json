@@ -1,0 +1,37 @@
+{
+  "name": "gs-fallback-return",
+  "version": "0.1.0",
+  "description": "Gentle Shell extension: returns the main session from a fallback model to its primary once the primary's quota cooldown has passed.",
+  "type": "module",
+  "license": "MIT",
+  "author": "AncientGear",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AncientGear/gs-fallback-return.git"
+  },
+  "homepage": "https://github.com/AncientGear/gs-fallback-return#readme",
+  "keywords": [
+    "pi-package",
+    "gentle-shell",
+    "gentle-shell-extension",
+    "model-fallback",
+    "quota"
+  ],
+  "files": [
+    "index.ts",
+    "decide.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
